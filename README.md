@@ -1,0 +1,1 @@
+# _essencial__GraphQl
