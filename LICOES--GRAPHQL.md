@@ -37,4 +37,16 @@ novoObjeto(){--resolucao de valores dos atributos
 podemos resolver retornando os valores dos atributos com dados ou vindos do banco de dados ou informações staticas
 --}
 ..............................
+Resolvendo atributo do objeto criado que pode vim do banco com nome diferente do atributo criado como apontamento em novo tipo
+faz uma função resolver com o nome do novo tipo poem em parametros o atributo que quer retornar um novo dado e na função resolve retornando o atributoCriadoemtipo.atributoAlvo atribuindo a um o outro ex:
+
+Usuario: {
+salario(usuario) {
+return usuario.salario_real
+}
+
+# Então : Vc pode ter resolvers para resolver atributos de dentro das Query como tbm para resolver atriutos de tipos personalizados
+
+...............................
+
 ..............................
